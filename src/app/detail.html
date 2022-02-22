@@ -53,17 +53,3 @@
   </div>
 </div>
 
-<ons-bottom-toolbar>
-  <div class="caught">
-    <div class="caught-label">
-      Caught
-    </div>
-    <div class="caught-checkbox">
-      <ons-input
-      type="checkbox"
-      (change)="onChange($event, pokemon)"
-      [checked]="caughtPokemon.has(pokemon.id)"
-      ></ons-input>
-    </div>
-  </div>
-</ons-bottom-toolbar>
