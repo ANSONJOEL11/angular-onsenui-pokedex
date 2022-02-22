@@ -7,7 +7,7 @@ import {PokemonDetails} from './pokemon-details';
 
 @Injectable()
 export class PokedexService {
-  private baseUrl: string = 'https://pokeapi.co/api/v2/pokemon/';
+  private baseUrl: string = 'https://pokeapi.co/api/v2/pokemon?limit=100';
 
   constructor(private http: Http) { }
 
