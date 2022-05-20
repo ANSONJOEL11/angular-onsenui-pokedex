@@ -1,3 +1,3 @@
 # Angular Onsenui Pokedex. 
 
-Live Demo Site: 
+Live Demo Site: https://ansonjoel11.github.io/angular-onsenui-pokedex/
